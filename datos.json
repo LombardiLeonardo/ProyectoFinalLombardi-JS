@@ -1,0 +1,22 @@
+{
+    "marcas": [
+      { "id": 1, "nombre": "Ford", "multiplicador": 1.2 },
+      { "id": 2, "nombre": "Toyota", "multiplicador": 1.3 },
+      { "id": 3, "nombre": "VW", "multiplicador": 1.5 },
+      { "id": 4, "nombre": "Chevrolet", "multiplicador": 1.6 },
+      { "id": 5, "nombre": "Volvo", "multiplicador": 1.4 },
+      { "id": 6, "nombre": "Scania", "multiplicador": 1.7 },
+      { "id": 7, "nombre": "Mercedez Benz", "multiplicador": 1.8 }
+    ],
+    "modelos": {
+      "auto": ["Toyota Cruze", "Ford Focus", "Clio Mio"],
+      "camioneta": ["Toyota Hilux", "Ford Ranger", "VW Amarok", "Chevrolet S10"],
+      "tractor": ["Scania P410", "Mercedez Benz Axor", "Volvo 420"]
+    },
+    "preciosBase": {
+      "auto": 20000,
+      "camioneta": 60000,
+      "tractor": 120000
+    }
+  }
+  
